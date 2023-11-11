@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                wsl
-                sh 'make'
+                wsl sh 'ls'
                 archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
             }
         }
