@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'wsl'
-                sh 'ls'
+                bat 'make'
             }
         }
     }
