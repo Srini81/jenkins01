@@ -1,8 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage (Testing) {
+        stage ('Testing') {
+            steps {
             print ('Hello')
+            }          
         }
     }
 }
