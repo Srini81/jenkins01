@@ -1,8 +1,8 @@
-pipeline{
-    agent any 
-    stages{
-        stage(Testing){
-            print("Hello")
+pipeline {
+    agent any
+    stages {
+        stage (Testing) {
+            print ('Hello')
         }
     }
 }
